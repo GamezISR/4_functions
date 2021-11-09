@@ -39,7 +39,7 @@ add_two_numbers()
 #make a function that substracts two numbers
 #make a fucntion that multiplies three numbers
 #call each twice
-
+"""
 def subtract():
   num1 = int(input("Enter a number: "))
   num2 = int(input("Enter a second number: "))
@@ -56,3 +56,21 @@ def multiply_three_numbers():
 
 multiply_three_numbers()
 multiply_three_numbers()
+"""
+
+#functions with parameters, return statements
+
+def add_numbers(num1, num2):
+  return num1 + num2
+
+number = int(input("Enter a number: "))
+number2 = int(input("Enter a second number: "))
+
+added_numbers = add_numbers(number,number2)
+print(added_numbers)
+
+# write a function subtracting two numbers with parameters being returned to be printed
+# write a function three number being mulitplied with parameters being returned to be printed
+
+
+
