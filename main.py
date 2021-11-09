@@ -21,7 +21,7 @@ else:
 #functions
 #defining 
 #a function with no parameters
-
+'''
 def add_two_numbers():
   num1 = int(input("Enter a number: "))
   num2 = int(input("Enter a second number: "))
@@ -33,13 +33,26 @@ add_two_numbers()
 add_two_numbers()
 add_two_numbers()
 add_two_numbers()
-
+'''
 
 
 #make a function that substracts two numbers
 #make a fucntion that multiplies three numbers
 #call each twice
 
+def subtract():
+  num1 = int(input("Enter a number: "))
+  num2 = int(input("Enter a second number: "))
+  print(num1 - num2)
 
+subtract()
+subtract()
 
+def multiply_three_numbers():
+  num1 = int(input("Enter a number: "))
+  num2 = int(input("Enter a second number: "))
+  num3 = int(input("Enter a third number: "))
+  print(num1 * num2 * num3)
 
+multiply_three_numbers()
+multiply_three_numbers()
